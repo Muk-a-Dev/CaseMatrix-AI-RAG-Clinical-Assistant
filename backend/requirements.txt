@@ -1,0 +1,11 @@
+flask>=2.3
+flask-cors>=4.0
+numpy>=1.24
+sentence-transformers>=2.2
+torch
+# Use either chromadb or faiss-cpu as the vector store backend.
+# Install only one to avoid heavy dependency conflicts.
+chromadb>=0.4.10
+# faiss-cpu>=1.7.3  # Optional alternative: uncomment to use FAISS
+python-dotenv>=1.0
+requests>=2.31
